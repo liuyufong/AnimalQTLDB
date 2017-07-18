@@ -1,0 +1,16 @@
+Package: AnimalQTLDB
+Title: provides database to the AnimalGene2QTL package (Title Case)
+Version: 1.0.0
+Authors@R: person("LiuYufeng", "Developer", role=c("aut", "cre"), email = "liuyufong@live.com")
+Author: LiuYufeng Developer [aut, cre]
+Maintainer: LiuYufeng Developer <liuyufong@live.com>
+Depends:
+    R (>= 3.2.0)
+Description: The package provides QTL database to AnimalGene2QTL package .
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+biocViews: ExperimentData
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
