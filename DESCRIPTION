@@ -5,7 +5,7 @@ Authors@R: person("LiuYufeng", "Developer", role=c("aut", "cre"), email = "liuyu
 Author: LiuYufeng Developer [aut, cre]
 Maintainer: LiuYufeng Developer <liuyufong@live.com>
 Depends:
-    R (>= 3.2.0)
+    R (>= 3.2.5)
 Description: The package provides QTL database to AnimalGene2QTL package .
 Suggests: rmarkdown, RUnit, BiocGenerics
 License: Artistic-2.0
@@ -13,6 +13,6 @@ Imports: knitr,RSQLite
 Encoding: UTF-8
 LazyData: true
 NeedsCompilation: no
-biocViews: ExperimentData
+biocViews: ExperimentData,RepositoryData, AssayDomainData
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
