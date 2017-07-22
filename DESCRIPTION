@@ -1,6 +1,6 @@
 Package: AnimalQTLDB
 Title: provides database to the AnimalGene2QTL package (Title Case)
-Version: 0.99.0
+Version: 0.99.1
 Authors@R: person("LiuYufeng", "Developer", role=c("aut", "cre"), email = "liuyufong@live.com")
 Author: LiuYufeng Developer [aut, cre]
 Maintainer: LiuYufeng Developer <liuyufong@live.com>
