@@ -2,7 +2,8 @@
 % Please edit documentation in R/AnimalQTLDB.R
 \name{AnimalQTLDB}
 \alias{AnimalQTLDB}
-\title{connect QTL database}
+\title{connect to the local QTL database.
+QTL data come from GFF3 format of Animalgenome (https://www.animalgenome.org/cgi-bin/QTLdb/index), in the process of data dump, the nonexistent assignment is NULL, and ultimately build the SQLite database of five data tables,named animalqtldb.db.}
 \usage{
 AnimalQTLDB()
 }
@@ -10,7 +11,8 @@ AnimalQTLDB()
 result
 }
 \description{
-connect QTL database
+connect to the local QTL database.
+QTL data come from GFF3 format of Animalgenome (https://www.animalgenome.org/cgi-bin/QTLdb/index), in the process of data dump, the nonexistent assignment is NULL, and ultimately build the SQLite database of five data tables,named animalqtldb.db.
 }
 \examples{
 AnimalQTLDB()
