@@ -5,17 +5,12 @@
 #' @export
 #' @importFrom RSQLite dbConnect
 #' @importFrom RSQLite dbDisconnect
+#' @importFrom RSQLite dbGetQuery
 #' @importFrom RSQLite SQLite
 #' @import knitr
 #' @examples 
 #' AnimalQTLDB()
 AnimalQTLDB <- function() {
-    for (pkg in c("RSQLite")) {
-      if (!requireNamespace(pkg, quietly = TRUE)) {
-        stop(paste("the ", pkg, " package needed for this function to work.Please install it.", 
-                   sep = ""), call. = FALSE)
-      }
-    }
     con <- dbConnect(SQLite(), system.file("extdata", "animalqtldb.db", package = "AnimalQTLDB"))
     if (isS4(con)) {
         result <- dbGetQuery(con, "SELECT * from sqlite_master")
